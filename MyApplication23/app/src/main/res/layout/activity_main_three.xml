@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:background="#FFFDE7"> <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Етап 3: Астероїдна небезпека!"
+    android:textSize="24sp"
+    android:textStyle="bold"
+    android:textColor="#D32F2F"
+    android:layout_marginBottom="10dp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@android:drawable/ic_dialog_alert"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="Alert Icon"/>
+
+    <TextView
+        android:id="@+id/tvDamageReport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Корабель входить у зону турбулентності! Оберіть дію:"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/btnShields"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Активувати силові щити"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#0288D1"/> <Button
+        android:id="@+id/btnManeuver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Виконати різкий маневр"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="#FBC02D"/> <Button
+        android:id="@+id/btnToFour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Аварійна посадка (Далі)"
+        android:backgroundTint="#D32F2F"/> </LinearLayout>
